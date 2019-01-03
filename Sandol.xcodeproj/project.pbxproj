@@ -11,13 +11,13 @@
 		5931AFF16B673FEE62250705 /* Pods_SandolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABF575CAB6D256E3AD5BC57 /* Pods_SandolTests.framework */; };
 		62FA451E958E036E009D06CD /* Pods_SandolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517BB80F78C482517087757B /* Pods_SandolUITests.framework */; };
 		C6794CD721DA1C9600B3E0A7 /* HexStringToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6794CD621DA1C9600B3E0A7 /* HexStringToUIColor.swift */; };
-		C6794CD921DA227A00B3E0A7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6794CD821DA227A00B3E0A7 /* UIView+Extension.swift */; };
 		C6794CDD21DD773100B3E0A7 /* logoold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6794CDB21DD773100B3E0A7 /* logoold.jpg */; };
 		C6794CDE21DD773100B3E0A7 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6794CDC21DD773100B3E0A7 /* bg.jpg */; };
 		C6794CE021DD7AB000B3E0A7 /* logoTransparented.png in Resources */ = {isa = PBXBuildFile; fileRef = C6794CDF21DD7AB000B3E0A7 /* logoTransparented.png */; };
 		C6794CE521DE36E300B3E0A7 /* tvN_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6794CE421DE36D000B3E0A7 /* tvN_Bold.otf */; };
 		C6794CE621DE36E600B3E0A7 /* tvN_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6794CE221DE36D000B3E0A7 /* tvN_Light.otf */; };
 		C6794CE721DE36E900B3E0A7 /* tvN_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6794CE321DE36D000B3E0A7 /* tvN_Medium.otf */; };
+		C6794CE921DE3E6200B3E0A7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6794CE821DE3E6200B3E0A7 /* UIView+Extension.swift */; };
 		C6A863FC21C8B93B0043DC99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A863FB21C8B93B0043DC99 /* AppDelegate.swift */; };
 		C6A8640121C8B93B0043DC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A863FF21C8B93B0043DC99 /* Main.storyboard */; };
 		C6A8640321C8B93C0043DC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A8640221C8B93C0043DC99 /* Assets.xcassets */; };
@@ -55,13 +55,13 @@
 		B1B69FEE18607DF429E7720D /* Pods-SandolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SandolTests/Pods-SandolTests.release.xcconfig"; sourceTree = "<group>"; };
 		B88BF23C1249CCB640CE19A3 /* Pods-SandolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SandolUITests/Pods-SandolUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6794CD621DA1C9600B3E0A7 /* HexStringToUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexStringToUIColor.swift; sourceTree = "<group>"; };
-		C6794CD821DA227A00B3E0A7 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C6794CDB21DD773100B3E0A7 /* logoold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logoold.jpg; sourceTree = "<group>"; };
 		C6794CDC21DD773100B3E0A7 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		C6794CDF21DD7AB000B3E0A7 /* logoTransparented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoTransparented.png; sourceTree = "<group>"; };
 		C6794CE221DE36D000B3E0A7 /* tvN_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tvN_Light.otf; sourceTree = "<group>"; };
 		C6794CE321DE36D000B3E0A7 /* tvN_Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tvN_Medium.otf; sourceTree = "<group>"; };
 		C6794CE421DE36D000B3E0A7 /* tvN_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tvN_Bold.otf; sourceTree = "<group>"; };
+		C6794CE821DE3E6200B3E0A7 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C6A863F821C8B93B0043DC99 /* Sandol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A863FB21C8B93B0043DC99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6A8640021C8B93B0043DC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -153,9 +153,9 @@
 		C6A863EF21C8B93B0043DC99 = {
 			isa = PBXGroup;
 			children = (
+				C6794CE821DE3E6200B3E0A7 /* UIView+Extension.swift */,
 				C6794CE121DE369F00B3E0A7 /* Fonts */,
 				C6794CDA21DD772200B3E0A7 /* Images */,
-				C6794CD821DA227A00B3E0A7 /* UIView+Extension.swift */,
 				C6A863FA21C8B93B0043DC99 /* Sandol */,
 				C6A8640F21C8B93C0043DC99 /* SandolTests */,
 				C6A8641A21C8B93C0043DC99 /* SandolUITests */,
@@ -420,7 +420,7 @@
 				C6EAC97521CB2313006AD979 /* MainViewController.swift in Sources */,
 				C6EAC97321CB1BFE006AD979 /* IntroViewController.swift in Sources */,
 				C6A863FC21C8B93B0043DC99 /* AppDelegate.swift in Sources */,
-				C6794CD921DA227A00B3E0A7 /* UIView+Extension.swift in Sources */,
+				C6794CE921DE3E6200B3E0A7 /* UIView+Extension.swift in Sources */,
 				C6794CD721DA1C9600B3E0A7 /* HexStringToUIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
