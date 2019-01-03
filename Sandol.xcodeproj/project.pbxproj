@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49099D580E1E70C8E46B4EF0 /* Pods_Sandol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9217C5910399DDA8212B570A /* Pods_Sandol.framework */; };
+		5931AFF16B673FEE62250705 /* Pods_SandolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABF575CAB6D256E3AD5BC57 /* Pods_SandolTests.framework */; };
+		62FA451E958E036E009D06CD /* Pods_SandolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517BB80F78C482517087757B /* Pods_SandolUITests.framework */; };
+		C6794CD721DA1C9600B3E0A7 /* HexStringToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6794CD621DA1C9600B3E0A7 /* HexStringToUIColor.swift */; };
+		C6794CD921DA227A00B3E0A7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6794CD821DA227A00B3E0A7 /* UIView+Extension.swift */; };
+		C6794CDD21DD773100B3E0A7 /* logoold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6794CDB21DD773100B3E0A7 /* logoold.jpg */; };
+		C6794CDE21DD773100B3E0A7 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6794CDC21DD773100B3E0A7 /* bg.jpg */; };
+		C6794CE021DD7AB000B3E0A7 /* logoTransparented.png in Resources */ = {isa = PBXBuildFile; fileRef = C6794CDF21DD7AB000B3E0A7 /* logoTransparented.png */; };
+		C6794CE521DE36E300B3E0A7 /* tvN_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6794CE421DE36D000B3E0A7 /* tvN_Bold.otf */; };
+		C6794CE621DE36E600B3E0A7 /* tvN_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6794CE221DE36D000B3E0A7 /* tvN_Light.otf */; };
+		C6794CE721DE36E900B3E0A7 /* tvN_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6794CE321DE36D000B3E0A7 /* tvN_Medium.otf */; };
 		C6A863FC21C8B93B0043DC99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A863FB21C8B93B0043DC99 /* AppDelegate.swift */; };
-		C6A863FE21C8B93B0043DC99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A863FD21C8B93B0043DC99 /* ViewController.swift */; };
 		C6A8640121C8B93B0043DC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A863FF21C8B93B0043DC99 /* Main.storyboard */; };
 		C6A8640321C8B93C0043DC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A8640221C8B93C0043DC99 /* Assets.xcassets */; };
 		C6A8640621C8B93C0043DC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A8640421C8B93C0043DC99 /* LaunchScreen.storyboard */; };
 		C6A8641121C8B93C0043DC99 /* SandolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A8641021C8B93C0043DC99 /* SandolTests.swift */; };
 		C6A8641C21C8B93C0043DC99 /* SandolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A8641B21C8B93C0043DC99 /* SandolUITests.swift */; };
+		C6EAC97321CB1BFE006AD979 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAC97221CB1BFE006AD979 /* IntroViewController.swift */; };
+		C6EAC97521CB2313006AD979 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAC97421CB2313006AD979 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ABF575CAB6D256E3AD5BC57 /* Pods_SandolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SandolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B28144D107574BE142CD8EE /* Pods-Sandol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sandol/Pods-Sandol.debug.xcconfig"; sourceTree = "<group>"; };
+		517BB80F78C482517087757B /* Pods_SandolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SandolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CE995ABA22E7B59AE8E426 /* Pods-SandolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SandolTests/Pods-SandolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		693A16AA0001168838974862 /* Pods-Sandol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sandol.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sandol/Pods-Sandol.release.xcconfig"; sourceTree = "<group>"; };
+		9217C5910399DDA8212B570A /* Pods_Sandol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sandol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B69FEE18607DF429E7720D /* Pods-SandolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SandolTests/Pods-SandolTests.release.xcconfig"; sourceTree = "<group>"; };
+		B88BF23C1249CCB640CE19A3 /* Pods-SandolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SandolUITests/Pods-SandolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6794CD621DA1C9600B3E0A7 /* HexStringToUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexStringToUIColor.swift; sourceTree = "<group>"; };
+		C6794CD821DA227A00B3E0A7 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C6794CDB21DD773100B3E0A7 /* logoold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logoold.jpg; sourceTree = "<group>"; };
+		C6794CDC21DD773100B3E0A7 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		C6794CDF21DD7AB000B3E0A7 /* logoTransparented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoTransparented.png; sourceTree = "<group>"; };
+		C6794CE221DE36D000B3E0A7 /* tvN_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tvN_Light.otf; sourceTree = "<group>"; };
+		C6794CE321DE36D000B3E0A7 /* tvN_Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tvN_Medium.otf; sourceTree = "<group>"; };
+		C6794CE421DE36D000B3E0A7 /* tvN_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tvN_Bold.otf; sourceTree = "<group>"; };
 		C6A863F821C8B93B0043DC99 /* Sandol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A863FB21C8B93B0043DC99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6A863FD21C8B93B0043DC99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6A8640021C8B93B0043DC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6A8640221C8B93C0043DC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6A8640521C8B93C0043DC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +74,9 @@
 		C6A8641721C8B93C0043DC99 /* SandolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A8641B21C8B93C0043DC99 /* SandolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandolUITests.swift; sourceTree = "<group>"; };
 		C6A8641D21C8B93C0043DC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6EAC97221CB1BFE006AD979 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		C6EAC97421CB2313006AD979 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CE9AC85544ABA1C2AC7BB9F6 /* Pods-SandolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SandolUITests/Pods-SandolUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49099D580E1E70C8E46B4EF0 /* Pods_Sandol.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5931AFF16B673FEE62250705 /* Pods_SandolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +100,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FA451E958E036E009D06CD /* Pods_SandolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A80064151BC7AEC30D2987E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B28144D107574BE142CD8EE /* Pods-Sandol.debug.xcconfig */,
+				693A16AA0001168838974862 /* Pods-Sandol.release.xcconfig */,
+				52CE995ABA22E7B59AE8E426 /* Pods-SandolTests.debug.xcconfig */,
+				B1B69FEE18607DF429E7720D /* Pods-SandolTests.release.xcconfig */,
+				B88BF23C1249CCB640CE19A3 /* Pods-SandolUITests.debug.xcconfig */,
+				CE9AC85544ABA1C2AC7BB9F6 /* Pods-SandolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6AAF2EF042729451C773AC6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9217C5910399DDA8212B570A /* Pods_Sandol.framework */,
+				4ABF575CAB6D256E3AD5BC57 /* Pods_SandolTests.framework */,
+				517BB80F78C482517087757B /* Pods_SandolUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6794CDA21DD772200B3E0A7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C6794CDC21DD773100B3E0A7 /* bg.jpg */,
+				C6794CDB21DD773100B3E0A7 /* logoold.jpg */,
+				C6794CDF21DD7AB000B3E0A7 /* logoTransparented.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C6794CE121DE369F00B3E0A7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C6794CE421DE36D000B3E0A7 /* tvN_Bold.otf */,
+				C6794CE221DE36D000B3E0A7 /* tvN_Light.otf */,
+				C6794CE321DE36D000B3E0A7 /* tvN_Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C6A863EF21C8B93B0043DC99 = {
 			isa = PBXGroup;
 			children = (
+				C6794CE121DE369F00B3E0A7 /* Fonts */,
+				C6794CDA21DD772200B3E0A7 /* Images */,
+				C6794CD821DA227A00B3E0A7 /* UIView+Extension.swift */,
 				C6A863FA21C8B93B0043DC99 /* Sandol */,
 				C6A8640F21C8B93C0043DC99 /* SandolTests */,
 				C6A8641A21C8B93C0043DC99 /* SandolUITests */,
 				C6A863F921C8B93B0043DC99 /* Products */,
+				4A80064151BC7AEC30D2987E /* Pods */,
+				6AAF2EF042729451C773AC6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +178,14 @@
 		C6A863FA21C8B93B0043DC99 /* Sandol */ = {
 			isa = PBXGroup;
 			children = (
-				C6A863FB21C8B93B0043DC99 /* AppDelegate.swift */,
-				C6A863FD21C8B93B0043DC99 /* ViewController.swift */,
 				C6A863FF21C8B93B0043DC99 /* Main.storyboard */,
-				C6A8640221C8B93C0043DC99 /* Assets.xcassets */,
 				C6A8640421C8B93C0043DC99 /* LaunchScreen.storyboard */,
+				C6A8640221C8B93C0043DC99 /* Assets.xcassets */,
+				C6A863FB21C8B93B0043DC99 /* AppDelegate.swift */,
 				C6A8640721C8B93C0043DC99 /* Info.plist */,
+				C6EAC97221CB1BFE006AD979 /* IntroViewController.swift */,
+				C6EAC97421CB2313006AD979 /* MainViewController.swift */,
+				C6794CD621DA1C9600B3E0A7 /* HexStringToUIColor.swift */,
 			);
 			path = Sandol;
 			sourceTree = "<group>";
@@ -132,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6A8642021C8B93C0043DC99 /* Build configuration list for PBXNativeTarget "Sandol" */;
 			buildPhases = (
+				6D1E3CB2C6701140A0E79CC3 /* [CP] Check Pods Manifest.lock */,
 				C6A863F421C8B93B0043DC99 /* Sources */,
 				C6A863F521C8B93B0043DC99 /* Frameworks */,
 				C6A863F621C8B93B0043DC99 /* Resources */,
@@ -149,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6A8642321C8B93C0043DC99 /* Build configuration list for PBXNativeTarget "SandolTests" */;
 			buildPhases = (
+				C641FBF09B20BFFC377A494C /* [CP] Check Pods Manifest.lock */,
 				C6A8640821C8B93C0043DC99 /* Sources */,
 				C6A8640921C8B93C0043DC99 /* Frameworks */,
 				C6A8640A21C8B93C0043DC99 /* Resources */,
@@ -167,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6A8642621C8B93C0043DC99 /* Build configuration list for PBXNativeTarget "SandolUITests" */;
 			buildPhases = (
+				A36C480F5C4E833E05076D81 /* [CP] Check Pods Manifest.lock */,
 				C6A8641321C8B93C0043DC99 /* Sources */,
 				C6A8641421C8B93C0043DC99 /* Frameworks */,
 				C6A8641521C8B93C0043DC99 /* Resources */,
@@ -229,8 +315,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6794CDE21DD773100B3E0A7 /* bg.jpg in Resources */,
 				C6A8640621C8B93C0043DC99 /* LaunchScreen.storyboard in Resources */,
+				C6794CE021DD7AB000B3E0A7 /* logoTransparented.png in Resources */,
+				C6794CE621DE36E600B3E0A7 /* tvN_Light.otf in Resources */,
+				C6794CE521DE36E300B3E0A7 /* tvN_Bold.otf in Resources */,
 				C6A8640321C8B93C0043DC99 /* Assets.xcassets in Resources */,
+				C6794CE721DE36E900B3E0A7 /* tvN_Medium.otf in Resources */,
+				C6794CDD21DD773100B3E0A7 /* logoold.jpg in Resources */,
 				C6A8640121C8B93B0043DC99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +343,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D1E3CB2C6701140A0E79CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sandol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A36C480F5C4E833E05076D81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SandolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C641FBF09B20BFFC377A494C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SandolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6A863F421C8B93B0043DC99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A863FE21C8B93B0043DC99 /* ViewController.swift in Sources */,
+				C6EAC97521CB2313006AD979 /* MainViewController.swift in Sources */,
+				C6EAC97321CB1BFE006AD979 /* IntroViewController.swift in Sources */,
 				C6A863FC21C8B93B0043DC99 /* AppDelegate.swift in Sources */,
+				C6794CD921DA227A00B3E0A7 /* UIView+Extension.swift in Sources */,
+				C6794CD721DA1C9600B3E0A7 /* HexStringToUIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +594,13 @@
 		};
 		C6A8642121C8B93C0043DC99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B28144D107574BE142CD8EE /* Pods-Sandol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X74SG9NQ3M;
 				INFOPLIST_FILE = Sandol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,17 +608,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Albatross.Sandol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C6A8642221C8B93C0043DC99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693A16AA0001168838974862 /* Pods-Sandol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X74SG9NQ3M;
 				INFOPLIST_FILE = Sandol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,12 +628,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Albatross.Sandol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		C6A8642421C8B93C0043DC99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CE995ABA22E7B59AE8E426 /* Pods-SandolTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +656,7 @@
 		};
 		C6A8642521C8B93C0043DC99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B69FEE18607DF429E7720D /* Pods-SandolTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +678,7 @@
 		};
 		C6A8642721C8B93C0043DC99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88BF23C1249CCB640CE19A3 /* Pods-SandolUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +699,7 @@
 		};
 		C6A8642821C8B93C0043DC99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9AC85544ABA1C2AC7BB9F6 /* Pods-SandolUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

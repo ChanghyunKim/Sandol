@@ -1,24 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="tvN_Bold.otf">
+            <string>OTEnjoystoriesB</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Intro View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="IntroViewController" customModule="Sandol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LOg-VN-wfE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="산호세한인장로교회" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxd-iV-y11">
+                                <rect key="frame" x="61" y="496" width="304" height="46.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="39"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Jose Korean Presbyterian Church" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXP-3v-MTs">
+                                <rect key="frame" x="65.5" y="542.5" width="299.5" height="24.5"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoTransparented.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Cf-Cs-gtu">
+                                <rect key="frame" x="20" y="40" width="119" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7Cf-Cs-gtu" secondAttribute="height" multiplier="241:162" id="S24-zU-RhE"/>
+                                    <constraint firstAttribute="height" constant="80" id="tNC-RL-EXo"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="oTz-Lz-tfM">
+                                <rect key="frame" x="20" y="144" width="281.5" height="139"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MoR-yS-8NJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="281.5" height="69.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfL-b2-OhD">
+                                                <rect key="frame" x="0.0" y="0.0" width="39.5" height="69.5"/>
+                                                <fontDescription key="fontDescription" name="OTEnjoystoriesB" family="tvN EnjoystoriesOTF" pointSize="63"/>
+                                                <color key="textColor" red="0.30980392156862746" green="0.56862745098039214" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="버지 하나님을" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpz-Us-Gb9">
+                                                <rect key="frame" x="39.5" y="0.0" width="242" height="69.5"/>
+                                                <fontDescription key="fontDescription" name="OTEnjoystoriesB" family="tvN EnjoystoriesOTF" pointSize="63"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="닮아가리라" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWZ-4v-OuC">
+                                        <rect key="frame" x="0.0" y="69.5" width="204.5" height="69.5"/>
+                                        <fontDescription key="fontDescription" name="OTEnjoystoriesB" family="tvN EnjoystoriesOTF" pointSize="63"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;범사에 감사하는 거룩한 생명공동체&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gas-dV-cPI">
+                                <rect key="frame" x="65.5" y="569" width="299.5" height="31"/>
+                                <fontDescription key="fontDescription" name="OTEnjoystoriesB" family="tvN EnjoystoriesOTF" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oTz-Lz-tfM" firstAttribute="leading" secondItem="7Cf-Cs-gtu" secondAttribute="leading" id="7jw-di-CTr"/>
+                            <constraint firstItem="rxd-iV-y11" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="Dg1-vf-7kJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XXP-3v-MTs" secondAttribute="trailing" constant="10" id="H1v-yG-BXR"/>
+                            <constraint firstItem="7Cf-Cs-gtu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Hwa-tL-bMY"/>
+                            <constraint firstItem="7Cf-Cs-gtu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Qq4-l1-1hZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LOg-VN-wfE" secondAttribute="bottom" id="S9b-fc-06z"/>
+                            <constraint firstItem="LOg-VN-wfE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vh9-mk-8qT"/>
+                            <constraint firstItem="XXP-3v-MTs" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="Vl4-EG-bSr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LOg-VN-wfE" secondAttribute="trailing" id="YBQ-nh-ngs"/>
+                            <constraint firstItem="gas-dV-cPI" firstAttribute="trailing" secondItem="XXP-3v-MTs" secondAttribute="trailing" id="cH7-JG-a25"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rxd-iV-y11" secondAttribute="trailing" constant="10" id="cPI-zM-aiM"/>
+                            <constraint firstItem="gas-dV-cPI" firstAttribute="leading" secondItem="XXP-3v-MTs" secondAttribute="leading" id="dLP-wa-i0U"/>
+                            <constraint firstItem="gas-dV-cPI" firstAttribute="top" secondItem="XXP-3v-MTs" secondAttribute="bottom" constant="2" id="gwX-30-p1W"/>
+                            <constraint firstItem="oTz-Lz-tfM" firstAttribute="top" secondItem="7Cf-Cs-gtu" secondAttribute="bottom" constant="24" id="hJo-E6-xKl"/>
+                            <constraint firstItem="LOg-VN-wfE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pcU-Vr-W6s"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="XXP-3v-MTs" secondAttribute="bottom" constant="100" id="rEF-6c-Lym"/>
+                            <constraint firstItem="XXP-3v-MTs" firstAttribute="top" secondItem="rxd-iV-y11" secondAttribute="bottom" id="ytu-CZ-TgA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="WBy-3P-YNh" kind="show" identifier="toMain" id="xck-z2-cWf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-183" y="-16"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="rOc-ok-4eD">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WBy-3P-YNh" customClass="MainViewController" customModule="Sandol" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ygf-Pp-Tak">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E9B-bb-o94">
+                                <rect key="frame" x="0.0" y="20" width="375" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="산호세한인장로교회" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pcn-Zo-HF3">
+                                        <rect key="frame" x="113.5" y="57.5" width="148" height="22.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="GUG-84-u7C"/>
+                                    <constraint firstItem="Pcn-Zo-HF3" firstAttribute="centerX" secondItem="E9B-bb-o94" secondAttribute="centerX" id="bGA-vA-cjj"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pcn-Zo-HF3" secondAttribute="bottom" id="bs2-AD-a2Q"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QC9-by-iJ5">
+                                <rect key="frame" x="33" y="132" width="309" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkB-el-BA4">
+                                        <rect key="frame" x="8" y="171" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FO4-j4-Q6g">
+                                        <rect key="frame" x="8" y="69" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IqO-Xs-Iq6">
+                                        <rect key="frame" x="8" y="114" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="sez-Zq-AI2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="e8M-Sd-Lay" firstAttribute="trailing" secondItem="QC9-by-iJ5" secondAttribute="trailing" constant="33" id="DBN-MV-Un6"/>
+                            <constraint firstItem="QC9-by-iJ5" firstAttribute="leading" secondItem="e8M-Sd-Lay" secondAttribute="leading" constant="33" id="LkB-8J-UjD"/>
+                            <constraint firstItem="E9B-bb-o94" firstAttribute="leading" secondItem="e8M-Sd-Lay" secondAttribute="leading" id="OGd-Ec-lx9"/>
+                            <constraint firstItem="E9B-bb-o94" firstAttribute="trailing" secondItem="e8M-Sd-Lay" secondAttribute="trailing" id="TuV-TC-Wzi"/>
+                            <constraint firstItem="QC9-by-iJ5" firstAttribute="top" secondItem="E9B-bb-o94" secondAttribute="bottom" constant="32" id="avq-Ec-0VW"/>
+                            <constraint firstItem="E9B-bb-o94" firstAttribute="top" secondItem="e8M-Sd-Lay" secondAttribute="top" id="cLv-FF-3vC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e8M-Sd-Lay"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AFz-Ae-LSS"/>
+                    <connections>
+                        <outlet property="navView" destination="E9B-bb-o94" id="6IJ-4K-NUh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sXL-wG-11N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="638" y="-17"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg.jpg" width="875" height="1214"/>
+        <image name="logoTransparented.png" width="214" height="122"/>
+    </resources>
 </document>
